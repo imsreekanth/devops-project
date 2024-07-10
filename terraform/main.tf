@@ -4,7 +4,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 resource "aws_instance" "devops-project" {
-    ami = "ami-09040d770ffe2224f"
+    ami = "ami-0ad21ae1d0696ad58"
     instance_type = "t2.micro"
      key_name = "devops-class"
      
