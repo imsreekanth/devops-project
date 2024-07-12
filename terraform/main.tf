@@ -1,6 +1,6 @@
 provider "aws" {
   access_key = "AKIA6ODU3UTUPBOT2BNP"
-  secret_key = "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"
+  secret_key = "KfyVRZQfHsoj7cuT9st9ypb3oYt4jwxMek4U+zVE"
   region = "ap-south-1"
 }
 resource "aws_instance" "devops-project" {
